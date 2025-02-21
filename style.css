@@ -81,6 +81,7 @@ h2{
     height: 1.4rem;
     background: url("https://raw.githubusercontent.com/maykbrito/my-public-files/main/nlw-19/radio.svg") no-repeat center;
 
+
 }
 
 p{
@@ -194,4 +195,15 @@ h4{
     font-size: 1.5rem;
     line-height: 100%;
     color: #C8D8Da;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #6F9DE2;
+    cursor: pointer;
+    font-family: 'Oxanium';
 }

@@ -89,7 +89,7 @@ const formAction = () => {
         const userData = {
             email:formData.get('email'),
             phone:formData.get('phone'),
-            }
+        }
 
             const user = getUser(userData)
             if (user) {
