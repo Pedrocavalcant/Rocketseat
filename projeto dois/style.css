@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+body{
+    background: url(img/bg-image.jpg) no-repeat center center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#page{
+    background-color: #F0E8C2;
+    width: 800px;
+    height: 1240px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+}
+#page  h1{
+    font-size: 2.6rem;
+}
 img{
     border-radius: 16px;
 }
