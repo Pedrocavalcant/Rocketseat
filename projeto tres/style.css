@@ -29,10 +29,11 @@ body{
     font-size: 12px;
     font-weight: bold;
     margin-bottom: 4px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;;
 }
 
 
-img{
+#img1{
     margin-top: 40px;
     width: 100%;
     border-radius: 25px;
@@ -51,3 +52,77 @@ img{
     background-color: darkgray;
     margin: 20px auto 40px;
 }
+
+h2{
+    margin-bottom: 20px;
+}
+
+.introducao{
+    margin-bottom: 64px;
+}
+
+h3{
+    text-indent: 13px;
+    font-size: 24px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.ponto-turistico{
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.normal{
+    margin-bottom: 20px;
+}
+
+.finalidade{
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+
+ul{
+    padding-left: 16px;
+    padding-bottom: 48px;
+}
+
+ul .historia{
+    color: #0c51a7;
+}
+
+ul .casais{
+    color: #591b98;
+}
+
+ul .familia{
+    color: #e5245e;
+}
+
+ul .orcamento{
+    color: #e95e10;
+}
+
+ul .casais,ul .familia,ul .orcamento,ul .historia{
+    font-weight: bold;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul .casais::marker,ul .familia::marker,ul .orcamento::marker,ul .historia::marker{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    font-family: "Alice", serif;
+}
+
+#coracao{
+    width: 16px;
+    height: auto;
+}
+
+
+
